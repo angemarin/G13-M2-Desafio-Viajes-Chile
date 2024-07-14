@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root{
+--Celeste: #0dcaf0;
+--Negro: #000000;
+}
+
+/*Tipografía*/
+
+*{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.icon-item{
+    color: white;
+    font-size: 1.8rem;
+}
+
+.titulo-info{
+    text-align: justify;
+}
+
+.bg-success-rgb{
+    background-color: #0dcaf0;
+}
+
+.info{
+    padding: 15px;
+}
+
+.texto-info{
+    text-align: left;
+}
