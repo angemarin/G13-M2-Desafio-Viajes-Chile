@@ -41,7 +41,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-            <div class="collapse navbar-collapse" id="navbarScroll">
+            <div class="main collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
 
                     <li class="nav-item">
@@ -247,10 +247,54 @@
     </div>
 
 
+<!--Contacto Formulario-->
 
 
+    <form class="bg-black pb-4" id="contacto">
+        <h2 class="text-center pt-4 pb-4 text-light">CONTACTO</h2>
+        <div class="container border-white border-top">
+
+            <div class="mb-3 pt-4 text-light">
+                <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+            </div>
+            <div class="mb-3 text-light">
+                <label for="exampleInputEmail1" class="form-label">Correo</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Correo Electrónico">
+            </div>
+
+            <div class="mb-3 text-light">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escribe aquí tu mensaje" rows="3"></textarea>
+            </div>
+<!--Tooltip-->
+            <div class="Info_boton pb-5">
+                <button id="enviarInfo" class="btn btn-info text-light  me-3 d-inline-block" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Presiona para enviar">Enviar</button>
+            </div>
+
+        </div>
+    </form>
 
 
+<!--Footer-->
+
+
+    <section class="footer" id="footer-viajes">
+        <div class="container ">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center  ">
+                <div class="col-md-4 d-flex align-items-center">
+                    <h2 class=" fw-light pt-5 pb-5 text-light">VIAJES CHILE</h2>
+                </div>
+
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="icon-item-footer"><a class="text-white" href="#"><i class="fa-brands fa-square-github"></i></a></li>
+                    <li class="icon-item-footer"><a class="text-white" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li class="icon-item-footer"><a class="text-white" href="#"><i class="fa-brands fa-brands fa-square-twitter"></i></a></li>
+                    <li class="icon-item-footer"><a class="text-white" href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+                </ul>
+            </footer>
+        </div>
+    </section>
 
 
 <!--JS-->

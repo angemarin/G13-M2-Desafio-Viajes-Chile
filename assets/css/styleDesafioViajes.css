@@ -33,3 +33,23 @@
 .texto-info{
     text-align: left;
 }
+
+/*footer*/
+
+.icon-item-footer{
+    font-size: 2rem;
+    color: white;
+    padding-right: 10px;
+}
+
+#footer-viajes{
+    background-color: #0dcaf0;
+}
+
+/* Media Queries para responsividad */
+
+@media (max-width: 768px) {
+    #quienesSomos {
+        display: none;
+    }
+}
